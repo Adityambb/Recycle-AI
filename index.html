@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycle using AI</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <section id="feature">
+        <div id="content">
+            <header>
+                <h2>RECYCLE SOLUTION</h2>
+                <p class="large muted">Experience the power of AI to solve daily problems, a standout feature of this
+                    revolutionary Recycling solution.</p>
+            </header>
+
+            <div id="grid">
+                <div>
+                    <img src="icons/icon-copy.svg" alt="Copy">
+                    <h3>Rapid product information</h3>
+                    <p>Effortlessly capture your product and get the solution what you can do with your waste material.
+                    </p>
+                </div>
+                <div>
+                    <img src="icons/icon-clock.svg" alt="Clock">
+                    <h3>Real-Time information</h3>
+                    <p>Get the accurate solution on time what to do with your waste product.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="media">
+            <!-- Air -->
+            <!-- Hidden elements to capture image -->
+            <video id="camera-stream" width="0" height="0" autoplay></video>
+            <canvas id="camera-canvas" style="display:none;"></canvas>
+        </div>
+
+
+        <!-- can i use the camera feature in my code? -->
+
+        <div class="search-bar">
+            <form>
+                <button type="button" class="file-button" id="file-button">
+                    <i class="fas fa-paperclip"></i>
+                </button>
+                <button type="button" class="camera-button" id="camera-button">
+                    <i class="fas fa-camera"></i>
+                </button>
+                <input type="text" placeholder="Search...">
+                <button type="button" class="mic-button" id="mic-button">
+                    <i class="fas fa-microphone"></i>
+                </button>
+                <button type="submit" class="search-submit-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+    </section>
+    <!-- how to link javascript file to html? -->
+     <script src="./script.js"></script>
+</body>
+
+</html>
