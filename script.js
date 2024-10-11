@@ -6,10 +6,10 @@ const cameraWindow = window.open("", "Camera Capture", "width=400,height=400");
 
 // Add the content in the new popup window
 cameraWindow.document.write(`
-				<video id="video" width="400" height="240" autoplay></video>
+				<video id="video" width="500" height="250" autoplay></video>
 				<br/>
 				<button id="capture">Capture Photo</button>
-				<canvas id="canvas" width="400" height="240" style="display:none;"></canvas>
+				<canvas id="canvas" width="500" height="250" style="display:none;"></canvas>
 				<script>
 					const video = document.getElementById('video');
 					const canvas = document.getElementById('canvas');
