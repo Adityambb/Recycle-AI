@@ -167,6 +167,7 @@ h3 {
 
     #feature {
         padding: 3rem 1rem 7rem;
+        height: 100vh;
     }
 
     .search-bar {
