@@ -165,10 +165,10 @@ h3 {
         font-size: 14px;
     }
 
-/*     #feature {
-        padding: 1rem 2rem 4rem;
-        height: 40vh;
-    } */
+    #feature {
+        padding: 3rem 2rem 4rem;
+        height: 100vh;
+    }
 
     .search-bar {
         width: 95%;
