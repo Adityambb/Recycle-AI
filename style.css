@@ -68,7 +68,7 @@ h3 {
     position: absolute;
     width: 40%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 8px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 20px;
@@ -84,11 +84,12 @@ h3 {
 
 .search-bar input[type="text"] {
     width: 90%;
-    height: 40px;
-    padding: 10px;
+    height: 60px;
+    padding: 5px;
+    margin: 0 10px 0 10px;
     border: none;
-    border-radius: 20px 0 0 20px;
-    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 20px;
 }
 
 .search-button,
@@ -96,8 +97,8 @@ h3 {
 .file-button,
 .search-submit-button,
 .camera-button {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 50px;
     background-color: #4CAF50;
     color: #fff;
     padding: 10px;
@@ -105,23 +106,13 @@ h3 {
     margin: 5px;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.search-button,
-.mic-button,
-.file-button {
-    margin-right: 10px;
-}
-
-.search-submit-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 20px 20px 20px 20px;
-    cursor: pointer;
-    font-size: 16px;
+img,
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 .search-button:hover,
@@ -135,17 +126,7 @@ h3 {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-/* 
-@media screen and (max-width: 600px) {
-    .search-bar input[type="text"] {
-        width: 100%;
-    }
 
-    .search-bar button[type="submit"] {
-        width: 100%;
-    }
-} */
-    /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 1.5rem;
@@ -166,11 +147,25 @@ h3 {
     }
 
     #feature {
-        padding: 3rem 2rem 4rem;
+        padding: 4rem 2rem 7rem;
         height: 100vh;
     }
 
     .search-bar {
         width: 95%;
     }
+
+    .search-button,
+    .mic-button,
+    .file-button,
+    .search-submit-button,
+    .camera-button {
+        width: 90px;
+        height: 45px;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 20px;
+    }
 }
+
