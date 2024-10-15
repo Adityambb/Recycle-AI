@@ -173,4 +173,19 @@ h3 {
     .search-bar {
         width: 95%;
     }
+
+    #video {
+        height: 820px;
+        width: 740px;
+    }
+
+    #canvas {
+        height: 820px;
+        width: 740px;
+    }
+
+    #capture {
+        width: 80px;
+        height: 30px;
+    }
 }
